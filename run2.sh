@@ -13,7 +13,7 @@ docker push quay.io/abarbaro/deploy-2:$COMMIT_ID
 
 oc create ns aaa-test-deploy 
 
-sleep 60
+sleep 38
 
 cat <<EOF | kubectl apply -f -
 kind: Deployment
